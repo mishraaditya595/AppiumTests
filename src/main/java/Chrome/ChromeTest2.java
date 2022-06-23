@@ -44,7 +44,8 @@ public class ChromeTest2 {
                 System.out.println("False");
             driver.findElement(By.xpath("//*[contains(@bounds,'[0,66][154,220]')]")).click();
             Thread.sleep(1000);
-            driver.findElement(By.xpath("//*[contains(@resource-id,'com.android.chrome:id/tab_switcher_button')]")).click();
+            driver.
+                    findElement(By.xpath("//*[contains(@resource-id,'com.android.chrome:id/tab_switcher_button')]")).click();
             driver.findElement(By.xpath("//*[contains(@text,'NerdyTree: Master Your Finance')]")).click();
             driver.findElement(By.xpath("//*[contains(@resource-id,'com.android.chrome:id/home_button')]")).click();
 
